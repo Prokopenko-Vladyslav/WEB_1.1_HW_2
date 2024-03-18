@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-dz-2"
+version = "0.1.0"
+description = "this bot is a notebook, a note-taker, a sorter."
+authors = ["Vladyslav <proshavl@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+requests = "[ 0] requests"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
