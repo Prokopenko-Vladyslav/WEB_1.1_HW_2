@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 # Позначимо порт, де працює застосунок всередині контейнера
 EXPOSE 5000
 
-ENTRYPOINT [ "python", "main.py"]
+ENTRYPOINT [ "python", "flask-docker-app/main.py"]
